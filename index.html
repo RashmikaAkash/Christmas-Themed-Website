@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
@@ -93,7 +96,7 @@
         <div class="content-wrapper">
             <div class="text-content">
                 <div class="text-content">
-                    <h1>Wishing You a Merry Christmas and a Happy New Year!</h1>
+                    <h1 id="banner-h">Wishing You a Merry Christmas and a Happy New Year!</h1>
                     <p>Celebrate the joy, love, and magic of the festive season with us!</p>
                     <a href="#" class="view-button">VIEW ALL</a>
     
@@ -112,6 +115,51 @@
             <div class="santa-ho ho-3">Ho!</div>
         </div>
     </div>
+        </div>
+    </div>
+
+    <!--card -->
+
+    <div id="canvas-container"></div>
+    <h1 id="ticket-h">Event Tickets</h1>
+    <div class="tickets-container">
+        <div class="ticket-card standard">
+            <div class="price-circle">$29</div>
+            <h2 class="pass-type">Standard Pass</h2>
+            <p class="tickets-available">452 Tickets Available</p>
+            <ul class="features">
+                <li>ENTRANCE</li>
+                <li>COFFEE BREAK</li>
+                <li>LUNCH ON ALL DAYS</li>
+                <li>DANCE PARTY</li>
+            </ul>
+            <button class="buy-button">BUY TICKET</button>
+        </div>
+
+        <div class="ticket-card platinum">
+            <div class="price-circle">$59</div>
+            <h2 class="pass-type">Platinum Pass</h2>
+            <p class="tickets-available">167 Tickets Available</p>
+            <ul class="features">
+                <li>ENTRANCE</li>
+                <li>COFFEE BREAK</li>
+                <li>LUNCH ON ALL DAYS</li>
+                <li>DANCE PARTY</li>
+            </ul>
+            <button class="buy-button">BUY TICKET</button>
+        </div>
+
+        <div class="ticket-card gold">
+            <div class="price-circle">$79</div>
+            <h2 class="pass-type">Gold Pass</h2>
+            <p class="tickets-available">281 Tickets Available</p>
+            <ul class="features">
+                <li>ENTRANCE</li>
+                <li>COFFEE BREAK</li>
+                <li>LUNCH ON ALL DAYS</li>
+                <li>DANCE PARTY</li>
+            </ul>
+            <button class="buy-button">BUY TICKET</button>
         </div>
     </div>
 
