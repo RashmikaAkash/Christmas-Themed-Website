@@ -295,6 +295,12 @@ p {
     transform: rotateY(360deg);
 }
 
+.price-circle i {
+    font-size: 20px; /* Adjust the size */
+    margin-right: 5px; /* Adjust spacing between the icon and the text */
+}
+
+
 .pass-type {
     font-size: 1.5rem;
     color: #1a2b3c;
@@ -310,21 +316,12 @@ p {
 .features {
     list-style: none;
     margin-bottom: 2rem;
-}
-
-.features li {
-    margin: 1rem 0;
     color: #555;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
-}
-
-.features li::before {
-    content: "✓";
-    color: #4CAF50;
-    font-weight: bold;
+    font-size: 16px;
+    
 }
 
 .buy-button {
