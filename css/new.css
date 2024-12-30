@@ -10,6 +10,10 @@
     padding: 2rem;
     perspective: 1000px;
   }
+
+  .card-dis{
+    font-size: 15px;
+  }
   
   .hero {
     transform-style: preserve-3d;
@@ -17,7 +21,7 @@
   }
   
   .title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: 3rem;
     background: var(--gradient);
     -webkit-background-clip: text;
     color: transparent;
@@ -29,6 +33,7 @@
     transform: translateY(20px);
     animation: fadeSlideUp 0.8s cubic-bezier(0.23, 1, 0.32, 1) forwards;
     animation-delay: 0.5s;
+    font-size: 22px;
   }
   
   .cta {
@@ -106,14 +111,16 @@
   }
   
   .icon {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60px;
     height: 60px;
-    background: var(--gradient);
-    border-radius: 50%;
-    margin-bottom: 1.5rem;
-    animation: iconFloat 3s ease-in-out infinite;
-  }
+    background-color: #e1e0e0c4; /* Circle background color */
+    border-radius: 50%; /* Make it a circle */
+    margin: 0 auto 10px; /* Center it horizontally and add some space below */
+    font-size: 30px; /* Adjust icon size */
+}
   
   @keyframes floatIn {
     0% { transform: translateZ(-100px); opacity: 0; }
