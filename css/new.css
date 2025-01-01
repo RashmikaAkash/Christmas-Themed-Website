@@ -1,6 +1,6 @@
 :root {
     --primary: #f94144;
-    --gradient: linear-gradient(135deg, #f94144, #ff6b6b);
+    --gradient: linear-gradient(135deg, rgba(204, 0, 0, 0.95), #ff6b6b);
     --shadow: 0 10px 30px rgba(249, 65, 68, 0.2);
   }
   
@@ -33,7 +33,7 @@
     transform: translateY(20px);
     animation: fadeSlideUp 0.8s cubic-bezier(0.23, 1, 0.32, 1) forwards;
     animation-delay: 0.5s;
-    font-size: 22px;
+    font-size: 20px;
   }
   
   .cta {
